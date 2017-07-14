@@ -1,0 +1,110 @@
+body{
+	margin:0;
+	padding:0;
+	width: auto;
+	font: 0.8em helvetica 'Times New Roman' sans-serif;
+	color: #333;
+}
+header{
+	margin-top: -15px;
+	height: 80px;
+	background-color: #2a85ff;
+	box-shadow: 0px 2px 20px #00f;
+}
+#menu{
+	padding:15px 50px;
+}
+img#logo{
+	float: left;
+	width: 100px;
+	border-radius: 50%;
+	margin-top: 8px;
+}
+header h2{
+	margin-top: 11px;
+	font-style: italic;
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+}
+#meet{
+	color: red;
+}
+#people{
+	color: yellow;
+}
+#wrapper{
+	max-width: 750px;
+	height: auto;
+	margin: 60px auto 0;
+}
+#main{
+
+}
+.row{
+	margin: 10px;
+}
+.row input[type=text]{
+	border-radius: 5px;
+}
+section#result{
+	margin: 60px 0;
+}
+.profile{
+	width:100px;
+}
+.person-row{
+	margin:10px 0;
+	height: 100px;
+	background: rgba(0,170,255, 0.1);
+	clear: both;
+	width: 100%;
+	border-radius: 10px;
+}
+.person-row img.profile{
+	float: left;
+	border-radius: 100%;
+	padding: 5px;
+	margin: 0 20px 0 10px;
+}
+h3.name{
+	padding: 15px 0;
+	margin: 0;
+}
+.person-row > button{
+	float: right;
+	margin: -60px 10px 0 0;
+}
+footer{
+	color: #333;
+	border-top: 1px solid #2a85ff;
+	padding:10px;
+	margin-top: 50px;
+	text-align: center;
+	clear: both;
+}
+/**Hompage**/
+#image{
+	width: 50%;
+	float: left;
+	/*background: url(../pix/homepix.png) no-repeat;*/
+	/*height: auto;*/
+}
+#homewrapper{
+	max-width: 940px;
+	height: auto;
+	margin: 60px auto 0;
+}
+#homemain{
+	margin-bottom: 60px;
+	height: 420px;
+}
+#SIgnup{
+	width: 40%;
+	float: right;
+}
+.form{
+	margin:20px;
+	border: 1px solid black;
+	
+}
