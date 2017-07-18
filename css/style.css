@@ -2,8 +2,9 @@ body{
 	margin:0;
 	padding:0;
 	width: auto;
-	font: 0.8em helvetica 'Times New Roman' sans-serif;
+	font: 0.8em helvetica, 'Times New Roman', sans-serif;
 	color: #333;
+	background: #eee;
 }
 header{
 	margin-top: -15px;
@@ -21,7 +22,7 @@ img#logo{
 	margin-top: 8px;
 }
 header h2{
-	margin-top: 11px;
+	margin-top: 15px;
 	font-style: italic;
 	color: #fff;
 	text-align: center;
@@ -55,7 +56,7 @@ section#result{
 }
 .person-row{
 	margin:10px 0;
-	height: 100px;
+	height: 110px;
 	background: rgba(0,170,255, 0.1);
 	clear: both;
 	width: 100%;
@@ -73,7 +74,7 @@ h3.name{
 }
 .person-row > button{
 	float: right;
-	margin: -60px 10px 0 0;
+	margin: -56px 10px 0 0;
 }
 footer{
 	color: #333;
@@ -88,7 +89,7 @@ footer{
 	width: 50%;
 	float: left;
 	/*background: url(../pix/homepix.png) no-repeat;*/
-	/*height: auto;*/
+	height: auto;
 }
 #homewrapper{
 	max-width: 940px;
@@ -99,12 +100,65 @@ footer{
 	margin-bottom: 60px;
 	height: 420px;
 }
-#SIgnup{
+#signin{
 	width: 40%;
 	float: right;
 }
-.form{
-	margin:20px;
-	border: 1px solid black;
-	
+#signin .form{
+margin-left: 20px;
+}
+#signin .form form input[type=text]{
+	padding-left: 5px;
+	 float: left;
+	 height: 20px;
+	 width: 110px;
+	 margin: 0 2px;
+}
+#signin input[type=password]{
+	 padding-left: 5px;
+	 float: left;
+	 height: 20px;
+	 width: 110px;
+	 -moz-margin: -17px 2px 0;
+	 margin: -15px 2px 0;
+}
+#signin input[type=submit]{
+	float: right;
+	margin-top: -32px;
+	margin-right: 40px;
+	padding:4px;
+	color: #2a85ff;
+	font-weight: bold;
+}
+#Signup{
+	width: 40%;
+	float: right;
+}
+#Signup .form{
+	margin:20% 20px auto;
+	border: 1px solid #ccc;
+	padding: 20px 20px 20px 40px;
+	/*text-align: center;*/
+	background: #fff;
+}
+.form form > label{
+	width: 70px;
+	/*height: 30px;*/
+	display: inline-block;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px 0;
+}
+#Signup .form form input[type=submit]{
+	color: #2a85ff;
+	font-weight: bold;
+	margin-left: ;
+	margin: 5px 0 0 27%;
+	padding: 4px;
+}
+#Signup .form form input[type=text], #Signup input[type=password]{
+	padding-left: 5px;
+	/*width: ;*/
+	height: 20px;
+
 }
