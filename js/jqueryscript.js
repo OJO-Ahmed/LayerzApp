@@ -21,7 +21,7 @@ var users = [
 		name: 'John',
 		gender: 'M',
 		hobby: 'Reading',
-		avatar: 'john.png'
+		avatar: 'profile2.png'
 	},
 	{
 		name: 'Ronaldo',
