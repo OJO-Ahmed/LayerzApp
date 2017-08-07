@@ -13,5 +13,3 @@ $result = $conn->query($sql);
  	$link = 'user.php?id=' . $row["id"] . '';
  	header("Location: " . $link);
  }
-
-// header("Location: index.php");
