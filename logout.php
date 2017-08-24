@@ -1,4 +1,7 @@
 <?php
+if(!isset(isset($_SESSION)){
+	session_start();
+}
 require_once 'socialdb.php';
 
 if ($_SESSION['user_data'] && $_SESSION['user_data']['id']) {
