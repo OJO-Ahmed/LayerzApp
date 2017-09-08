@@ -35,7 +35,7 @@ if(!isset($_SESSION)){
 <div id="homewrapper">
 	<div id="homemain">
 		<section >
-			<img id="image" src="pix/homepix.png" alt = "picture"/>
+			<img id="image" src="" alt = "place ur choice picture"/>
 		</section>
 		<section id="Signup">
 			<div class = "form">
